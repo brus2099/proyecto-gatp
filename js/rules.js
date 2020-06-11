@@ -27,7 +27,7 @@ Message = document.getElementById('message')
 textButtom = document.getElementById('button')
 function message(win) {
     if (win!=0){
-        messageText = 'El ganador es el jugator ' + win
+        messageText = 'El ganador es el jugador ' + win
         Message = document.getElementById('message')
         Message.style.display='block'
         Message.innerHTML = messageText
