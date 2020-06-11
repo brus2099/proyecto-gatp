@@ -1,0 +1,36 @@
+
+.table {
+    margin: 50px 0px;
+    position: center;
+}
+
+.row .cell {
+    border: 1px solid gray;
+    margin: 2px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row .cell:hover {
+    background: rgb(161, 161, 161);
+    border: 2px solid gray;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    margin: 30%;
+}
+
+#message {
+    display: none;
+    width: 30%;
+}
+
+#button { 
+    display: none;
+    width: 30%;
+}
